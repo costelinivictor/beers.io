@@ -8,11 +8,3 @@ html {
   font-family: "Lato", sans-serif;
   background-color: #ecf0f1;
 }
-
-.switch-wrapper {
-  position: relative;
-}
-
-.switch-wrapper > div {
-  position: absolute;
-}
