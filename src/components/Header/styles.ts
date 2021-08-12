@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   padding: 20px;
 
-  background-color: #9b59b6;
+  background-color: #2c3e50;
   color: white;
   font-size: 18px;
 `;
@@ -16,7 +16,7 @@ export const HeaderItem = styled.span`
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -32,5 +32,4 @@ export const HeaderItem = styled.span`
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
   }
-
 `;
