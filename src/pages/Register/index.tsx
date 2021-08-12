@@ -1,9 +1,19 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Input, SubmitButton } from './styles';
 
 const Register: React.FC = () => {
-  return <h1>Register</h1>;
+  return (
+    <div className="flex justify-center mt-24">
+      <Container>
+        <span>Name</span>
+        <Input />
+        <span>Description</span>
+        <Input />
+        <SubmitButton>Submit</SubmitButton>
+      </Container>
+    </div>
+  );
 }
 
 export default Register;
