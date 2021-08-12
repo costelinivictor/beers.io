@@ -19,7 +19,7 @@ const ItemCard: React.FC<Props> = ({ imagePath, title, description }) => {
       </DeleteButton>
       <Image src={imagePath} alt="" />
       <strong>{title}</strong>
-      <p>{description}</p>
+      <p>{description.length > 100 ? description.substr(0, 100) + "..." : description}</p>
     </Container>
   );
 }
