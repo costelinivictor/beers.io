@@ -9,10 +9,10 @@ const Header: React.FC = () => {
       <h1>Beers.io</h1>
       <div className="flex">
         <HeaderItem>
-          <Link to="/">Listagem</Link>
+          <Link to="/">List</Link>
         </HeaderItem>
         <HeaderItem className="ml-8">
-          <Link to="/register">Cadastro</Link>
+          <Link to="/register">Register</Link>
         </HeaderItem>
       </div>
     </Container>
