@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.form`
   background: #fff;
   max-width: 500px;
   border-radius: 15px;
