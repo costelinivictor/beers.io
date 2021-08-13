@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import ItemCard from '../../components/ItemCard';
 
 import { SearchBar } from './styles';
 
 import AppContext from "../../contexts/AppContext";
-import { useContext } from 'react';
-import { useState } from 'react';
 
 const List: React.FC = () => {
   const { items } = useContext(AppContext)!;
